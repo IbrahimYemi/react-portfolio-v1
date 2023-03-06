@@ -185,7 +185,7 @@ export default function Err404() {
 					</svg>
 
 				</div>
-				<p class="text-sm md:text-base text-blue-600 p-2 mb-4">The stuff you were looking for doesn't exist
+				<p class="text-sm md:text-base text-blue-600 p-2 mb-4">Hey!!! You don dey carry me go where I know.
 				</p>
                 <Link to="/"
 					class="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-blue-800 hover:border-transparent">
