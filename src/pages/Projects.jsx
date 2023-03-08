@@ -2,9 +2,10 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/NavBar";
 import ProjectCard from "../components/ProjectCard";
+import ProjectDetails from "../assets/project";
 
 export default function Projects() {
-    const projects = [1,1,1,1,1,1,1,1,1,]
+
   return (
     <div>
       <Navbar />
@@ -14,9 +15,9 @@ export default function Projects() {
             Here is a bit of projects, I've worked on!
           </h1>
           <div className="flex flex-col md:flex-row w-full flex-wrap items-center justify-center md:px-8 p-4">
-            {projects.map((project, i) => {
+            {ProjectDetails.map((project, i) => {
                 return (
-                    <ProjectCard project={project} i={i} key={i} />
+                    <ProjectCard project={project} key={i} />
                 )
             })}
           </div>

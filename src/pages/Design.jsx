@@ -122,7 +122,7 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
 
               <Link
                 to="/stack"
-                className={`relative bg-gradient-to-br flex items-center justify-between p-2 from-neutral-500 to-slate-800 h-3/5 w-1/5 border-x-8 border-slate-900 rounded-t-lg cursor-pointer`}
+                className={`relative bg-gradient-to-br flex items-start justify-between p-2 from-neutral-500 to-slate-800 h-3/5 w-1/5 border-x-8 border-slate-900 rounded-t-lg cursor-pointer`}
               >
                 <h1 className="absolute bottom-0 text-center text-white text-lg w-full">
                   {" "}
@@ -143,9 +143,9 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
 
               <Link
                 to="/about"
-                className={`relative bg-gradient-to-br flex items-end justify-between p-2 from-neutral-500 to-slate-800 h-3/5 w-1/5 border-x-8 border-slate-900 rounded-t-lg cursor-pointer`}
+                className={`relative bg-gradient-to-br flex items-start justify-between p-2 from-neutral-500 to-slate-800 h-3/5 w-1/5 border-x-8 border-slate-900 rounded-t-lg cursor-pointer`}
               >
-                <h1 className="absolute top-0 w-full text-center text-white text-lg">
+                <h1 className="absolute bottom-0 w-full text-center text-white text-lg">
                   {" "}
                   <i className=" text-orange-600 fa-solid fa-user"></i>{" "}
                   <span className="hidden md:inline">About Me</span>

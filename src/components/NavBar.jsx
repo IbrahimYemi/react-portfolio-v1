@@ -18,14 +18,16 @@ const Navbar = () => {
               <i class="fa-solid fa-code"></i>
             </Link>
             <div className="mx-2 text-2xl items-center text-white">
-              <a className="mx-1"
+              <a
+                className="mx-1"
                 href="https://github.com/IbrahimYemi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i class="fa-brands fa-github-square"></i>
               </a>
-              <a className="mx-1"
+              <a
+                className="mx-1"
                 href="http://twitter.com/sharafa224"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -35,25 +37,21 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <div className="ml-4 flex items-center space-x-4">
-              <Link
-                to="/portfolio"
-                className="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-white text-2xl">
+              <a
+                href="https://github.com/IbrahimYemi"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Portfolio
-              </Link>
-              <Link
-                to="/about"
-                className="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                <i class="fa-brands fa-github-square"></i>
+              </a>
+              <a
+                href="http://twitter.com/sharafa224"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                About
-              </Link>
-              <Link
-                to="/contact"
-                className="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Contact
-              </Link>
+                <i class="fa-brands fa-twitter-square"></i>
+              </a>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -107,25 +105,21 @@ const Navbar = () => {
         className={`${isOpen ? "block" : "hidden"} md:hidden`}
         id="mobile-menu"
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <Link
-            to="/portfolio"
-            className="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-white">
+          <a
+            href="https://github.com/IbrahimYemi"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Portfolio
-          </Link>
-          <Link
-            to="/about"
-            className="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            <i class="fa-brands fa-github-square"></i>
+          </a>
+          <a
+            href="http://twitter.com/sharafa224"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            about
-          </Link>
-          <Link
-            to="/contact"
-            className="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Contact
-          </Link>
+            <i class="fa-brands fa-twitter-square"></i>
+          </a>
         </div>
       </div>
     </nav>
