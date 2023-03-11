@@ -11,10 +11,10 @@ export default function ProjectCard({project}) {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row rounded-lg shadow-slate-400 shadow-2xl w-4/5 md:w-96 md:h-auto h-fit m-1">
+    <div className="flex flex-col md:flex-row rounded-lg shadow-slate-400 shadow hover:shadow-2xl w-full md:w-96 md:h-auto h-fit m-2 md:m-4">
       <div className="relative md:w-1/2 w-full cursor-default">
         <img
-          className="h-full w-full rounded-l-lg"
+          className="h-56 md:h-full w-full rounded-l-lg"
           src={project?.image}
           alt="project-pic"
         />
@@ -22,13 +22,13 @@ export default function ProjectCard({project}) {
          <span className="text-center text-white font-bold drop-shadow p-2">{project?.note}</span>
         </span>
       </div>
-      <div className="relative bg-gray-300 rounded-r-lg p-2 md:w-1/2 w-full md:h-64 pb-4">
+      <div className="relative bg-gray-300 rounded-r-lg p-2 md:w-1/2 w-full h-56 md:h-64 pb-4">
         <div className=" drop-shadow-sm cursor-pointer w-24 hover:bg-gray-900 hover:text-white p-1 text-center rounded-md">
           <a href={project?.url} target="_blank" rel="noreferrer">
             <i className="fa-solid fa-eye"></i> view live
           </a>
         </div>
-        <div className="text-left text-base text-gray-900 flex flex-col p-4">
+        <div className="text-left text-base text-gray-900 flex flex-col py-4">
           <h3 className="text-gray-800 font-bold text-lg">STACK</h3>
           <div className="flex flex-wrap">
             { project?.stack.map((stack,ix) => {

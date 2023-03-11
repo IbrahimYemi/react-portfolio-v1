@@ -9,49 +9,58 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800">
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <nav className="bg-gray-800 w-full">
+      <div className="mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-white font-bold text-xl items-center">
-              <i class="fa-solid fa-laptop"></i> Yemi{" "}
-              <i class="fa-solid fa-code"></i>
+              <i className="fa-solid fa-laptop"></i> Yemi{" "}
+              <i className="fa-solid fa-code"></i>
             </Link>
-            <div className="mx-2 text-2xl items-center text-white">
-              <a
-                className="mx-1"
-                href="https://github.com/IbrahimYemi"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fa-brands fa-github-square"></i>
-              </a>
-              <a
-                className="mx-1"
-                href="http://twitter.com/sharafa224"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fa-brands fa-twitter-square"></i>
-              </a>
-            </div>
-          </div>
-          <div className="hidden md:block">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-white text-2xl">
               <a
                 href="https://github.com/IbrahimYemi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github-square"></i>
+                <i className="mx-1 fa-brands fa-github-square"></i>
+              </a>
+              <a
+                href="http://www.linkedin.com/in/ibrahim-sarafadeen-opeyemi95/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="mx-1 fa-brands fa-linkedin"></i>
               </a>
               <a
                 href="http://twitter.com/sharafa224"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-twitter-square"></i>
+                <i className="mx-1 fa-brands fa-twitter-square"></i>
               </a>
+            </div>
+          </div>
+          <div className="hidden md:block">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-white text-2xl">
+              <Link
+                to="/about"
+                className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 text-neutral-200 rounded"
+              >
+                About
+              </Link>
+              <Link
+                to="/projects"
+                className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 text-neutral-200 rounded"
+              >
+                Projects
+              </Link>
+              <Link
+                to="/experiences"
+                className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 text-neutral-200 rounded"
+              >
+                Experiences
+              </Link>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -106,20 +115,24 @@ const Navbar = () => {
         id="mobile-menu"
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-white">
-          <a
-            href="https://github.com/IbrahimYemi"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/about"
+            className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 block text-neutral-200 rounded"
           >
-            <i class="fa-brands fa-github-square"></i>
-          </a>
-          <a
-            href="http://twitter.com/sharafa224"
-            target="_blank"
-            rel="noopener noreferrer"
+            About
+          </Link>
+          <Link
+            to="/projects"
+            className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 block text-neutral-200 rounded"
           >
-            <i class="fa-brands fa-twitter-square"></i>
-          </a>
+            Projects
+          </Link>
+          <Link
+            to="/experiences"
+            className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 block text-neutral-200 rounded"
+          >
+            Experiences
+          </Link>
         </div>
       </div>
     </nav>

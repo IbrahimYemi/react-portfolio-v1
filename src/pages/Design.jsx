@@ -35,7 +35,13 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
         </div>
         <div className="relative container flex h-full w-4/5 mx-auto justify-center items-center md:items-end">
           {/* pillar */}
-          <div className="bg-gradient-to-br from-neutral-500 to-orange-800 hidden md:inline h-5/6 md:w-10 w-1/12 rounded-t-lg "></div>
+          <div
+            className={` ${
+              !weather
+                ? "bg-gradient-to-r from-slate-600 to-orange-800"
+                : "bg-gradient-to-r from-gray-400 to-slate-900"
+            } hidden md:inline h-5/6 md:w-10 w-1/12 rounded-t-lg`}
+          ></div>
 
           {/* building */}
           <div className="flex flex-col md:w-auto w-11/12">
@@ -55,7 +61,7 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
                 <i className="fa-solid fa-laptop"></i> Yemi{" "}
                 <i className="fa-solid fa-code"></i>
               </Link>
-              <span className="hidden md:block text-neutral-400 text-xs text-center w-3/5">
+              <span className="hidden md:block text-neutral-200 text-xs text-center w-3/5">
                 Hi there, I am Yemi, a Nigeria based Fullstack Software
                 Developer who have a passion for building effective and
                 efficient softwares for businesses and organizations.
@@ -121,7 +127,7 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
               </Link>
 
               <Link
-                to="/stack"
+                to="/experiences"
                 className={`relative bg-gradient-to-br flex items-start justify-between p-2 from-neutral-500 to-slate-800 h-3/5 w-1/5 border-x-8 border-slate-900 rounded-t-lg cursor-pointer`}
               >
                 <h1 className="absolute bottom-0 text-center text-white text-lg w-full">
@@ -143,7 +149,7 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
 
               <Link
                 to="/about"
-                className={`relative bg-gradient-to-br flex items-start justify-between p-2 from-neutral-500 to-slate-800 h-3/5 w-1/5 border-x-8 border-slate-900 rounded-t-lg cursor-pointer`}
+                className={`relative flex items-start justify-between p-2 bg-gradient-to-br from-neutral-500 to-slate-800 h-3/5 w-1/5 border-x-8 border-slate-900 rounded-t-lg cursor-pointer`}
               >
                 <h1 className="absolute bottom-0 w-full text-center text-white text-lg">
                   {" "}
@@ -201,7 +207,7 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
                 ></span>
               </div>
 
-              <div
+              <a href="https://drive.google.com/folderview?id=17hvSDL9nEajCblZ0raJa_T6KxbxsoqMX" target="blank" title="Peep through the window! Downlod CV" 
                 className={`mx-2 rounded-lg shadow-xl h-24 w-1/6 md:w-20 ${
                   theme ? "bg-slate-900" : "bg-neutral-300"
                 } flex flex-col items-center justify-center`}
@@ -210,7 +216,7 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
                 <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-0"></span>
                 <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-4 block"></span>
                 <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-0"></span>
-              </div>
+              </a>
 
               {/* enterance */}
               <div className="relative mx-5 ml-10 bg-gradient-to-br from-neutral-500 to-slate-800 h-4/5 md:w-72 w-2/6 border-x-8 border-slate-900 rounded-t-lg">
@@ -230,19 +236,19 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
                 </div>
 
                 {/* door */}
-                <div className="absolute cursor-pointer rounded-tl-lg shadow-xl bottom-0 right-0 h-20 w-12 md:h-40 md:w-24 bg-orange-900">
+                <a href="mailto:ibrahimsharafadeen95@gmail.com?Subject=Hello Yemi, Let's work together!" className="absolute cursor-pointer rounded-tl-lg shadow-xl bottom-0 right-0 h-20 w-12 md:h-40 md:w-24 bg-orange-900">
                   {/* knob */}
                   <span className="absolute rounded-sm shadow-xl top-4 left-4 h-1 w-3 bg-slate-900"></span>
                   <span className="absolute rounded-sm shadow-xl top-12 left-4 h-4 w-1 bg-slate-900"></span>
                   <span className="absolute shadow-xl bottom-2 left-2 p-1 bg-slate-900 text-white text-xs rounded-full animate-bounce">
                     <i className="fa-solid fa-arrow-down"></i>
                   </span>
-                </div>
+                </a>
               </div>
 
               {/* windows right */}
               <div className="flex items-center w-2/6 md:w-60 justify-between">
-                <div
+                <a href="https://drive.google.com/folderview?id=17hvSDL9nEajCblZ0raJa_T6KxbxsoqMX" target="blank" title="Peep through the window! Downlod CV"
                   className={`relative rounded-lg shadow-xl h-24 mx-4 w-1/3 ${
                     theme ? "bg-slate-900" : "bg-neutral-300"
                   } flex flex-col items-center justify-center`}
@@ -251,8 +257,8 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
                   <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-0"></span>
                   <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-4 block"></span>
                   <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-0"></span>
-                </div>
-                <div
+                </a>
+                <a href="https://drive.google.com/folderview?id=17hvSDL9nEajCblZ0raJa_T6KxbxsoqMX" target="blank" title="Peep through the window! Downlod CV"
                   className={`relative rounded-lg shadow-xl  h-24 mx-4 w-1/3 ${
                     theme ? "bg-slate-900" : "bg-neutral-300"
                   } flex flex-col items-center justify-center`}
@@ -261,7 +267,7 @@ export default function Design({ handleTheme, theme, weather, handleWeather }) {
                   <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-0"></span>
                   <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-4 block"></span>
                   <span className="rounded-sm shadow-xl h-1 w-4/5 bg-orange-900 my-0"></span>
-                </div>
+                </a>
               </div>
             </div>
           </div>
