@@ -19,7 +19,7 @@ const ProjectDetails = [
   },
   {
     id: 12,
-    url: "https://ibrahimyemi.netlify.app/",
+    url: "https://houseplay.netlify.app/",
     image: "/images/thispage.png",
     stack: ["html", "javascript", "css", "react", "redux-toolkit"],
     title: "Portfolio website",

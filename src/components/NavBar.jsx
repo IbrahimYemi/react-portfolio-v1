@@ -61,6 +61,12 @@ const Navbar = () => {
               >
                 Experiences
               </Link>
+              <Link
+                to="/getting-lost"
+                className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 text-neutral-200 rounded"
+              >
+                Try get lost!
+              </Link>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -132,6 +138,12 @@ const Navbar = () => {
             className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 block text-neutral-200 rounded"
           >
             Experiences
+          </Link>
+          <Link
+            to="/getting-lost"
+            className="text-sm bg-gray-800 p-2 m-1 hover:bg-gray-600 text-neutral-200 rounded"
+          >
+            Try get lost!
           </Link>
         </div>
       </div>

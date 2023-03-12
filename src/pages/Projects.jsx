@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectDetails from "../assets/project";
 import Layout from "../components/layout";
+import stacks from "../assets/stacks";
 
 export default function Projects() {
   const color = [
@@ -13,27 +14,6 @@ export default function Projects() {
     "bg-blue-800",
     "bg-gradient-to-br from-red-500 to-sky-800",
     "bg-sky-700",
-  ];
-  const stacks = [
-    "Javascript",
-    "CSS3",
-    "html5",
-    "jQuery",
-    "PHP",
-    "Laravel",
-    "git",
-    "AWS",
-    "MySQL",
-    "MS SQL",
-    "next.js",
-    "typescript",
-    "tailwind",
-    "SCSS",
-    "bootstrap",
-    "material UI",
-    "digital marketing",
-    "graphics design",
-    "microsoft tools(excel, ms-word, powerpoint)"
   ];
 
   return (
