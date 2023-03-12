@@ -2,7 +2,7 @@ const ProjectDetails = [
   {
     id: 1,
     url: "https://mock-file.netlify.app",
-    image: "/logo192.png",
+    image: "/images/mock-file.jpeg",
     stack: ["react", "vite", "tailwind", "excel-package", "file saver"],
     title: "mock data app",
     note:
@@ -11,7 +11,7 @@ const ProjectDetails = [
   {
     id: 8,
     url: "https://fitnesspage-tfit.stackblitz.io/",
-    image: "/logo192.png",
+    image: "/images/tfit.jpeg",
     stack: ["html", "javascript", "css", "react"],
     title: "Landing page",
     note:
@@ -20,7 +20,7 @@ const ProjectDetails = [
   {
     id: 9,
     url: "https://assessment-project.stackblitz.io/",
-    image: "/logo192.png",
+    image: "/images/payment.jpeg",
     stack: ["html", "javascript", "css", "react"],
     title: "Payment gateway",
     note:
@@ -29,7 +29,7 @@ const ProjectDetails = [
   {
     id: 4,
     url: "https://ops.ibedc.com",
-    image: "/logo192.png",
+    image: "/images/ops-manager.jpeg",
     stack: ["laravel", "javascript", "bootstrap", "jQuery", "SQL"],
     title: "operations management",
     note:
@@ -38,7 +38,7 @@ const ProjectDetails = [
   {
     id: 2,
     url: "https://users-display.netlify.app",
-    image: "/logo192.png",
+    image: "/images/users-info.jpeg",
     stack: ["react", "typescript", "redux-toolkit", "scss"],
     title: "Users info display",
     note:
@@ -47,7 +47,7 @@ const ProjectDetails = [
   {
     id: 3,
     url: "https://admin-analytics.netlify.app",
-    image: "/logo192.png",
+    image: "/images/admin-analytics.jpeg",
     stack: ["react", "material UI", "redux-toolkit"],
     title: "Admin analytics",
     note:
@@ -56,7 +56,7 @@ const ProjectDetails = [
   {
     id: 5,
     url: "https://psms.ibedc.com",
-    image: "/logo192.png",
+    image: "/images/psms.jpeg",
     stack: ["laravel", "javascript", "bootstrap", "jQuery", "SQL"],
     title: "Monitoring system",
     note:
@@ -65,7 +65,7 @@ const ProjectDetails = [
   {
     id: 11,
     url: "https://bhuy-ecommerce.stackblitz.io/categories",
-    image: "/logo192.png",
+    image: "/images/bhuy.jpeg",
     stack: ["html", "javascript", "css", "react", "context-api"],
     title: "General store",
     note:
@@ -74,7 +74,7 @@ const ProjectDetails = [
   {
     id: 6,
     url: "http://svfashionworld.000webhostapp.com/",
-    image: "/logo192.png",
+    image: "/images/fashion.jpeg",
     stack: ["html", "javascript", "css", "jQuery"],
     title: "Product Display",
     note:
@@ -83,7 +83,7 @@ const ProjectDetails = [
   {
     id: 7,
     url: "https://foodapiweb.netlify.app/",
-    image: "/logo192.png",
+    image: "/images/food.jpeg",
     stack: ["html", "javascript", "css",],
     title: "Online restuarant",
     note:
@@ -91,9 +91,9 @@ const ProjectDetails = [
   },
   {
     id: 10,
-    url: "https://opestarr.stackblitz.io/",
-    image: "/logo192.png",
-    stack: ["html", "javascript", "css", "react", "context-api"],
+    url: "https://xfxxl4.csb.app/",
+    image: "/images/opestore.jpeg",
+    stack: ["html", "javascript", "css", "react", "react-redux"],
     title: "Ecommerce store",
     note:
       "It might be tiring atimes, but never giving up, working smarter, and putting efforts do always pay!",

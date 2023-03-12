@@ -11,10 +11,10 @@ export default function ProjectCard({project}) {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row rounded-lg shadow-slate-400 shadow hover:shadow-2xl w-full md:w-96 md:h-auto h-fit m-2 md:m-4">
+    <div className="flex flex-col md:flex-row rounded-lg shadow-slate-400 shadow hover:shadow-2xl w-full md:w-1/3 md:h-auto h-fit m-2 md:m-4">
       <div className="relative md:w-1/2 w-full cursor-default">
         <img
-          className="h-56 md:h-full w-full rounded-l-lg"
+          className="h-56 md:h-full w-full md:w-64 rounded-l-lg"
           src={project?.image}
           alt="project-pic"
         />
