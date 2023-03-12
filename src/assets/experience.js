@@ -22,6 +22,30 @@ const work = [
         end:"2022",
         intro:"This is brand that was founded and managed by me and some like minded friends. It is a service based company, that offer software solutions for small brands and businesses. The software company offer services that touches a wide range of digital services. i.e. medtech, fintech, business logic, personal branding, graphics designing, digital marketing, content writing, etc.",
         desc:"At Dean Digital, I was tasked with the responsibilities to manage the brand, develop digital strategies for our clients, work on campaigns and also build the website for clients that needed this service. We built help our clients build their online presence but most importantly, we made sure the satisfaction of the clients are the major priority. We mostly develop static pages that link to client WhatsApp and instagram or any social media platform of their choice. I worked in a team that comprises of product designer, web enthusiast, data analyst, and digital marketer.",
+    },
+    {
+        id:3,
+        avatar:"F",
+        location:"online",
+        type:"frontend",
+        name:"Freelancing",
+        stacks:["react", "php", "jQuery", "html5", "css3", "javascript"],
+        start:"2020",
+        end:"2022",
+        intro:"Online freelancing platforms, such as fiverr and upwork have helped me in getting real life experiences and hands on projects. Coupled with gigs that I was invited to help on with some friends.",
+        desc:"I leverage on my skills and decided to take a chance with the popular freelancing platforms. I use my basic frontend skills initially to help client with their emails and also with my advantage of digital marketing, I was able to give them tips on the SEO and how they can rank higher. I use html, css, and javascript alot in this role, as these are what the requirements of the job seeks. Also some friends that works as freelancers do call on me to help once in a while and collaborate on their projects in order to meet the dealine set by their clients, which I was greatly motivated to help.",
+    },
+    {
+        id:4,
+        avatar:"C",
+        location:"Ilorin",
+        type:"Digital marketer",
+        name:"Crownpageant",
+        stacks:["digital marketing", "MS-Word", "MS-Excel", "Power-Point", "Wordpress", "Content writing", "Content editing"],
+        start:"2019",
+        end:"2021",
+        intro:"Crownpagent advertising agency is an online digital marketing company that deals with the services that includes brand promotion, personal branding, online presence etc. ",
+        desc:"At crownpagent advertising agency, I was responsible for task delegation, content management, and client management. The purpose of the company is to serve its client customer audience, improve its client online presence, and also promote brands. Being the lead digital marketer in the team, I was responsible for smooth execution of project while making sure customers satisfaction is of utmost priority. Together with the team members, we planned out campaigns that boost client follower on social media platforms, and worked on targeted ads for conversion using necessary sales funnels for the client. Making sure the contents are posted on schedule date, the contents to be posted and the management of the account is one of the vital functionality to our operations. Also using twitter, facebook, and instagram to increase the presence of our clients. We believe, being in the face of the clients is the perfect reminder that a buiness need to thrive.",
     }
 ]
 

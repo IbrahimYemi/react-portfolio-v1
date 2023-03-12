@@ -28,6 +28,7 @@ export default function Projects() {
     "next.js",
     "typescript",
     "tailwind",
+    "SCSS",
     "bootstrap",
     "material UI",
     "digital marketing",

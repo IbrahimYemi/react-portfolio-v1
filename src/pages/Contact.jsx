@@ -5,6 +5,9 @@ export default function About() {
   return (
     <Layout>
       <div className="md:px-8 p-4 bg-neutral-100 min-h-screen">
+        <h1 className="text-2xl md:text-4xl text-slate-900 font-extrabold md:w-3/5 mx-auto text-center mb-4">
+          Get to know me, I promise you not to disappoint!
+        </h1>
         <div className="flex flex-col md:flex-row h-full md:w-5/6 w-full mx-auto py-8 items-start justify-between">
           <img
             src="/images/me.jpg"
@@ -47,20 +50,24 @@ export default function About() {
               with like-minded individuals who share my passion for innovation
               and my desire to make a meaningful impact on the world.
               <br />
-              So what do you say? Are you willing to let me join you on this exciting
-              journey? Let's work together to create something amazing!"
+              So what do you say? Are you willing to let me join you on this
+              exciting journey? Let's work together to create something
+              amazing!"
             </p>
             <span className="mt-4">
-            <a href="mailto:ibrahimsharafadeen95@gmail.com?Subject=Hello Yemi, Let's work together!"
-              className={`bg-gradient-to-br from-neutral-500 to-slate-900 p-3 capitalize rounded-md  text-xs text-white font-bold text-center cursor-pointer my-2 w-28 mr-2`}
-            >
-              Hire me!
-            </a>
-            <a href="https://drive.google.com/folderview?id=17hvSDL9nEajCblZ0raJa_T6KxbxsoqMX" target="blank"
-              className={`bg-gradient-to-br from-neutral-500 to-slate-900 p-3 capitalize rounded-md  text-xs text-white font-bold text-center cursor-pointer my-2 w-28 ml-2`}
-            >
-             Download CV!
-            </a>
+              <a
+                href="mailto:ibrahimsharafadeen95@gmail.com?Subject=Hello Yemi, Let's work together!"
+                className={`bg-gradient-to-br from-neutral-500 to-slate-900 p-3 capitalize rounded-md  text-xs text-white font-bold text-center cursor-pointer my-2 w-28 mr-2`}
+              >
+                Hire me!
+              </a>
+              <a
+                href="https://drive.google.com/folderview?id=17hvSDL9nEajCblZ0raJa_T6KxbxsoqMX"
+                target="blank"
+                className={`bg-gradient-to-br from-neutral-500 to-slate-900 p-3 capitalize rounded-md  text-xs text-white font-bold text-center cursor-pointer my-2 w-28 ml-2`}
+              >
+                Download CV!
+              </a>
             </span>
           </div>
         </div>

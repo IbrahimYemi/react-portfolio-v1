@@ -7,11 +7,11 @@ export default function JobCard({ job }) {
   const path = job?.name?.split(" ").join("-")
 
   return (
-    <div className="flex p-2 bg-gray-200 shadow-sm md:p-8 w-5/6 md:w-auto m-2 h-60 relative">
+    <div className="flex p-2 bg-gray-200 shadow-sm md:p-8 w-5/6 md:w-1/3 m-2 h-60 relative">
       <div className="rounded-sm h-20 w-20 bg-white flex items-center justify-center shadow-md text-5xl text-center">
         {job.avatar}
       </div>
-      <div className="flex flex-col items-start px-2 md:w-60 w-60 h-52 relative">
+      <div className="flex flex-col items-start px-2 md:w-80 w-60 h-52 relative">
         <h2 className="text-slate-900 font-bold text-lg">{job.name}</h2>
         <small className="text-neutral-500 text-xs italic font-thin font-mono mb-4">
           {job.start} - {job.end}

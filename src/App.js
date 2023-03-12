@@ -36,7 +36,7 @@ const App = () => {
         <Route exact path="/home" element={<Home />} />
         <Route
           exact
-          path="/ss"
+          path="/"
           element={
             <Design
               theme={theme}
@@ -49,7 +49,7 @@ const App = () => {
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/experiences" element={<Experiences />} />
         <Route exact path={`/experiences/${path}`} element={<JobDesc />} />
-        <Route exact path="/" element={<About />} />
+        <Route exact path="/about" element={<About />} />
         <Route exact path="*" element={<Err404 />} />
       </Routes>
     </Router>
