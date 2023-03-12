@@ -18,6 +18,15 @@ const ProjectDetails = [
       "It might be tiring atimes, but never giving up, working smarter, and putting efforts do always pay!",
   },
   {
+    id: 12,
+    url: "https://ibrahimyemi.netlify.app/",
+    image: "/images/thispage.png",
+    stack: ["html", "javascript", "css", "react", "redux-toolkit"],
+    title: "Portfolio website",
+    note:
+      "I am a passionate software developer who seeks a competitive platform to scale and impact. I am confident on delivering!",
+  },
+  {
     id: 9,
     url: "https://assessment-project.stackblitz.io/",
     image: "/images/payment.jpeg",
